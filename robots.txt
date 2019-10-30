@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://blog.funimg.top/sitemap.xml
