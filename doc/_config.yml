@@ -100,3 +100,21 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+
+# 字数统计和阅读时长
+symbols_count_time: 
+  symbols: true                # 文章字数统计
+  time: true                   # 文章阅读时长
+  total_symbols: true          # 站点总字数统计
+  total_time: true             # 站点总阅读时长
+  exclude_codeblock: false     # 排除代码字数统计
+
+
+# 开启本地搜索
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+  limit: 10000
